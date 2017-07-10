@@ -11,3 +11,10 @@ function double(arr) {
   }
   return _arr;
 }
+
+function human() {
+  var name = 'Haru39';
+  return function() {
+    return name;
+  }
+}
